@@ -1,2 +1,1 @@
-# github link : 
-# github repo : 
+# github live link : https://misternaimur.github.io/Techwave/
