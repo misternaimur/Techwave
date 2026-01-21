@@ -1,14 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techwave</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- @format -->
 
-</head>
-<body>
-    <h1 class="text-2xl bg-amber-400">Hello World</h1>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techwave</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="">
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <p>Tech<span>Wave</span></p>
+        </div>
+        <ul class="nav-menu">
+          <li>About</li>
+          <li>Episodes</li>
+          <li>Host</li>
+        </ul>
+        <div class="btn-box">
+          <button class="btn-primary">
+            Subscribe <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <img src="./assets/hero-bg.png" alt="Hero Image" />
+
+        <div class="hero-contain">
+          <div class="hero-element">
+            <div id="new-icon">
+              <p>NEW</p>
+            </div>
+            <div class="hero-circle">
+              <img src="./assets/hero-circle.png" alt="" />
+              <div class="hero-micro">
+                <img src="./assets/microphone.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-text-contain ">
+            <h1 class="hero-txt">TechWave</h1>
+            <p class="text-center text-[#ffffff]">
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div class="hero-btn-box">
+              <button class="hero-btn">
+                <img src="./assets/spotify.png" alt="" />Listen on Spotify
+              </button>
+              <button class="hero-btn">
+                <img src="./assets/message.png" alt="" />Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
 </html>

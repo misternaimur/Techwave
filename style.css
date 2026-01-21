@@ -1,1 +1,171 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
+
+
+@layer utilities {
+  .inter-font {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+    font-style: normal;
+  }
+}
+
+.logo {
+  font-size: 48px;
+}
+
+.navbar {
+  padding: 30px 200px;
+  background-color: #1a0b2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 314px;
+  margin: 0 auto;
+}
+
+.logo p {
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.logo span {
+  color: #ac4b4b;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-box {
+  width: 200px;
+  height: 55px;
+  background-color: #073870;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-primary i {
+  color: white;
+}
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.hero-contain{
+  position: absolute;
+  top: 153px;
+  left: 520px;
+  width: 550px;
+  height: 558px;
+
+}
+.hero-element{
+  position: relative;
+  
+}
+#new-icon{
+  position:absolute;
+  z-index: 2;
+  left: 352px;
+  top: 12px ;
+  background-color: #00FF88;
+  width: 75px;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  font-weight: 500;
+}
+
+ .hero-micro{
+  position: absolute;
+  top:69px;
+  left: 175px;
+  width:200px;
+  height: 200px;
+  padding: 8px 41px;
+  
+}
+.hero-circle{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 334px;
+  height: 334px;
+
+}
+
+.hero-txt{
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: aliceblue;
+}
+
+.hero-btn-box{
+  display: flex;
+  margin: 24px 97px 0px 97px;
+  gap:8px;
+}
+
+.hero-btn{
+  width: 300px;
+  height: 44px;
+  gap: 2px;
+  display: flex;
+  color: #ffffff;
+  border: 1px solid white;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 100px;
+}
+.hero-btn img{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+@media screen and (max-width:576px) 
+{
+
+  .logo p{
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+}
+.nav-menu {
+display: none;
+    
+}
