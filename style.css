@@ -91,6 +91,7 @@
   display: none;
 }
 
+
 /* hero section */
 .hero-contain {
   position: absolute;
@@ -112,6 +113,12 @@
   z-index: 4;
   top: 12px;
   left: 352px;
+  transition: transform 0.3s ease;
+}
+
+#new-icon:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 255, 136, 0.4);
 }
 
 .hero-circle {
@@ -126,6 +133,10 @@
   right: 75px;
   bottom: 70px;
   margin: 0 auto;
+  transition: transform 0.4s ease;
+}
+.microphone:hover {
+  transform: rotate(100deg);
 }
 
 .hero-tittle {
